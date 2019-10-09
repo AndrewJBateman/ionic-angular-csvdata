@@ -24,6 +24,7 @@ export class HomePage {
 		this.loadCSV();
 	}
 
+	// response type has to specified as default is json
 	private loadCSV() {
 		this.http.get('./assets/test.csv', {
 			responseType: 'text'
@@ -36,6 +37,7 @@ export class HomePage {
 	extractData(res: any) {
 		const csvData = res || '';
 
+		// parse data asynchronously as per papa parse documentation.
 		this.papa.parse(csvData, {
 			complete: parsedData => {
 				this.headerRow = parsedData.data.splice(0, 1)[0];
@@ -45,6 +47,7 @@ export class HomePage {
 		});
 	}
 
+	// track changes to elements
 	trackByFn(index: any, item: any) {
 		return index;
 	}
