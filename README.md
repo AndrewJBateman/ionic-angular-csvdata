@@ -31,7 +31,7 @@
 
 * [Ionic v5](https://ionicframework.com/)
 * [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v10](https://angular.io/)
+* [Angular v101](https://angular.io/)
 * [cordova-plugin-file v6](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/)
 * [cordova-plugin-x-socialsharing v5](https://ionicframework.com/docs/native/social-sharing)
 * [mholt: Fast and powerful CSV (delimited text) parser - github link](https://github.com/mholt/PapaParse)
