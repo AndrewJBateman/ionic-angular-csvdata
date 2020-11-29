@@ -1,6 +1,7 @@
 # :zap: Ionic Angular Explorer
 
-* App to open a locally-stored Comma Separated Values (CSV) file and allow it to be modified and saved/shared via a social media plugin if using a mobile or as a xls file if using a PC. This is another great tutorial from [Simon Grimm of the IonicAcademy, Youtube video 'Ionic Native File Explorer'](https://www.youtube.com/watch?v=pDqG3iYDdM0&t=141s).
+* App to open a locally-stored Comma Separated Values (CSV) file and allow it to be modified and saved/shared via a social media plugin if using a mobile or as a xls file if using a PC.
+* This is another great tutorial from [Simon Grimm of the IonicAcademy](https://www.youtube.com/user/saimon1924) - see [:clap: Inspiration](#clap-inspiration) below.
 
 ## :page_facing_up: Table of contents
 
@@ -34,7 +35,7 @@
 * [cordova-plugin-file v6](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/)
 * [cordova-plugin-x-socialsharing v5](https://ionicframework.com/docs/native/social-sharing)
 * [mholt: Fast and powerful CSV (delimited text) parser - github link](https://github.com/mholt/PapaParse)
-* [ngx-papaparse v3.0.4 (latest is 4.0.4)](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v3) - app only works with v 3.0.4
+* [ngx-papaparse v3.0.4 (latest is 5.0.0)](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v3) - app only works with v 3.0.4
 
 ## :floppy_disk: Setup
 
@@ -63,7 +64,7 @@ this.papa.parse(csvData, {
 
 ## :clipboard: Status & To-do list
 
-* Status: Code complete and working, tested using ionic server and Ionic devapp.
+* Status: Working, tested using Ionic server and Ionic devapp. Passes linting.
 * To-do: nothing
 
 ## :clap: Inspiration
