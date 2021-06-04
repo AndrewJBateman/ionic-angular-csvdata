@@ -2,6 +2,12 @@
 
 * App to open a locally-stored Comma Separated Values (CSV) file and allow it to be modified and saved/shared via a social media plugin if using a mobile or as a xls file if using a PC.
 * This is another great tutorial from [Simon Grimm of the IonicAcademy](https://www.youtube.com/user/saimon1924) - see [:clap: Inspiration](#clap-inspiration) below.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-csvdata?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-csvdata?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-csvdata?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-angular-csvdata?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -31,11 +37,11 @@
 
 * [Ionic v5](https://ionicframework.com/)
 * [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v101](https://angular.io/)
+* [Angular v12](https://angular.io/)
 * [cordova-plugin-file v6](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/)
 * [cordova-plugin-x-socialsharing v5](https://ionicframework.com/docs/native/social-sharing)
 * [mholt: Fast and powerful CSV (delimited text) parser - github link](https://github.com/mholt/PapaParse)
-* [ngx-papaparse v3.0.4 (latest is 5.0.0)](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v3) - app only works with v 3.0.4
+* [ngx-papaparse v5](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v4)
 
 ## :floppy_disk: Setup
 
@@ -64,7 +70,7 @@ this.papa.parse(csvData, {
 
 ## :clipboard: Status & To-do list
 
-* Status: Working, updated may2021. Tested using Ionic server and Ionic devapp. Passes linting.
+* Status: Working, updated may 2021. Tested using Ionic server and Ionic devapp. Passes linting.
 * To-do: nothing
 
 ## :clap: Inspiration
@@ -72,6 +78,10 @@ this.papa.parse(csvData, {
 * [Simon Grimm IonicAcademy Youtube video 'Ionic Native File Explorer'](https://www.youtube.com/watch?v=tyZjicNtbyk)
 * [Written version of tutorial from Devtactic website: How to Import & Export CSV Data using Papa Parse with Ionic](https://devdactic.com/csv-data-papa-parse-ionic/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
