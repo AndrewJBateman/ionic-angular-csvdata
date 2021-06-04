@@ -64,7 +64,7 @@ this.papa.parse(csvData, {
 
 ## :clipboard: Status & To-do list
 
-* Status: Working, tested using Ionic server and Ionic devapp. Passes linting.
+* Status: Working, updated may2021. Tested using Ionic server and Ionic devapp. Passes linting.
 * To-do: nothing
 
 ## :clap: Inspiration
