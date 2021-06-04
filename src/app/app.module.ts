@@ -9,7 +9,6 @@ import { StatusBar } from "@ionic-native/status-bar/ngx";
 import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
 
-import { PapaParseModule } from "ngx-papaparse";
 import { File } from "@ionic-native/file/ngx";
 import { SocialSharing } from "@ionic-native/social-sharing/ngx";
 import { HttpClientModule } from "@angular/common/http";
@@ -21,7 +20,6 @@ import { HttpClientModule } from "@angular/common/http";
 		BrowserModule,
 		IonicModule.forRoot(),
 		AppRoutingModule,
-		PapaParseModule,
 		HttpClientModule,
 	],
 	providers: [
