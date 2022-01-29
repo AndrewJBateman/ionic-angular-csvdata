@@ -35,11 +35,11 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic v5](https://ionicframework.com/)
-* [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v12](https://angular.io/)
+* [Ionic v6](https://ionicframework.com/)
+* [Ionic/angular v6](https://ionicframework.com/)
+* [Angular v13](https://angular.io/)
 * [cordova-plugin-file v6](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/)
-* [cordova-plugin-x-socialsharing v5](https://ionicframework.com/docs/native/social-sharing)
+* [cordova-plugin-x-socialsharing v6](https://ionicframework.com/docs/native/social-sharing)
 * [mholt: Fast and powerful CSV (delimited text) parser - github link](https://github.com/mholt/PapaParse)
 * [ngx-papaparse v5](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v4)
 
@@ -70,7 +70,7 @@ this.papa.parse(csvData, {
 
 ## :clipboard: Status & To-do list
 
-* Status: Working, updated may 2021. Tested using Ionic server and Ionic devapp. Passes linting.
+* Status: Working. Tested using Ionic server and Ionic devapp. Passes linting.
 * To-do: nothing
 
 ## :clap: Inspiration

@@ -1,13 +1,9 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title>
-      Ionic CSV File
-    </ion-title>
+    <ion-title> Ionic CSV File </ion-title>
 
     <ion-buttons slot="start">
-      <ion-button (click)="exportCSV()">
-        Export
-      </ion-button>
+      <ion-button (click)="exportCSV()"> Export </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -15,14 +11,17 @@
 <ion-content scrollX="true">
   <table class="data-table">
     <tr>
-      <td *ngFor="let header of headerRow" class="ion-text-center"><b>{{ header }}</b></td>
+      <td *ngFor="let header of headerRow" class="ion-text-center">
+        <b>{{ header }}</b>
+      </td>
     </tr>
     <tr *ngFor="let row of csvData; let i = index">
-      <td *ngFor="let data of row; let j = index; trackBy: trackByFn" class="data-col">
+      <td
+        *ngFor="let data of row; let j = index; trackBy: trackByFn"
+        class="data-col"
+      >
         <ion-input type="text" [(ngModel)]="csvData[i][j]"></ion-input>
       </td>
     </tr>
   </table>
 </ion-content>
-
-
