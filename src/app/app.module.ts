@@ -14,21 +14,20 @@ import { SocialSharing } from "@ionic-native/social-sharing/ngx";
 import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
-	declarations: [AppComponent],
-	entryComponents: [],
-	imports: [
-		BrowserModule,
-		IonicModule.forRoot(),
-		AppRoutingModule,
-		HttpClientModule,
-	],
-	providers: [
-		StatusBar,
-		SplashScreen,
-		{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-		File,
-		SocialSharing,
-	],
-	bootstrap: [AppComponent],
+    declarations: [AppComponent],
+    imports: [
+        BrowserModule,
+        IonicModule.forRoot(),
+        AppRoutingModule,
+        HttpClientModule,
+    ],
+    providers: [
+        StatusBar,
+        SplashScreen,
+        { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+        File,
+        SocialSharing,
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule {}
