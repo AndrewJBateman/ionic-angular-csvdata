@@ -21,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -37,8 +38,8 @@
 
 * [Ionic v6](https://ionicframework.com/)
 * [Ionic/angular v6](https://ionicframework.com/)
-* [Angular v13](https://angular.io/)
-* [cordova-plugin-file v6](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/)
+* [Angular v14](https://angular.io/)
+* [cordova-plugin-file v7](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/)
 * [cordova-plugin-x-socialsharing v6](https://ionicframework.com/docs/native/social-sharing)
 * [mholt: Fast and powerful CSV (delimited text) parser - github link](https://github.com/mholt/PapaParse)
 * [ngx-papaparse v5](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v4)
@@ -66,7 +67,7 @@ this.papa.parse(csvData, {
 
 ## :cool: Features
 
-* cvs file access and editing.
+* CSV file access and editing.
 
 ## :clipboard: Status & To-do list
 
