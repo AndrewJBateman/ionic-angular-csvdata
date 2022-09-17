@@ -30,10 +30,10 @@ export class HomePage {
       .get("./assets/test.csv", {
         responseType: "text",
       })
-      .subscribe(
-        (data) => this.extractData(data),
-        (err) => console.log("error: ", err)
-      );
+      .subscribe({
+        next: (data) => this.extractData(data),
+        error: console.error,
+      });
   }
 
   extractData(res: any) {
