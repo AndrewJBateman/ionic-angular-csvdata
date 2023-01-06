@@ -38,11 +38,11 @@
 
 * [Ionic v6](https://ionicframework.com/)
 * [Ionic/angular v6](https://ionicframework.com/)
-* [Angular v14](https://angular.io/)
+* [Angular v15](https://angular.io/)
 * [cordova-plugin-file v7](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/)
 * [cordova-plugin-x-socialsharing v6](https://ionicframework.com/docs/native/social-sharing)
 * [mholt: Fast and powerful CSV (delimited text) parser - github link](https://github.com/mholt/PapaParse)
-* [ngx-papaparse v5](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v4)
+* [ngx-papaparse v6](https://github.com/alberthaff/ngx-papaparse) & [Albert Haff website](https://alberthaff.dk/projects/ngx-papaparse/docs/v4)
 
 ## :floppy_disk: Setup
 
